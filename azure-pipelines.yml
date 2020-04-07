@@ -16,4 +16,4 @@ steps:
     displayName: 'Execute Inline Shell Script'
     inputs: 
       targetType: inline
-      script: echo "This is first Azure Pipeline"
+      script: cd spring-boot-basic-microservice/spring-boot-microservice-currency-conversion-service && mvn clean install  -DskipTests
